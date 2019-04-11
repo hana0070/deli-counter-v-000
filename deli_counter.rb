@@ -7,7 +7,7 @@ def line(katz_deli)
   else katz_deli != []
     count = 1
     katz_deli.map do |name|
-      puts "The line is currently: #{count}. #{name}]"
+      puts "The line is currently: #{count}. #{name}"
       count += 1
     end
   end
