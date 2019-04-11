@@ -3,9 +3,9 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else
-    current line = "The line is currently:"
+    current_line = "The line is currently:"
     deli.each.with_index(1) do |name, i|
-      current line << " #{i}. #{name}"
+      current_line << " #{i}. #{name}"
     end
   end
 end
