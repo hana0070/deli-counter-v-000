@@ -5,9 +5,10 @@ def line(katz_deli)
   if katz_deli = []
     puts "The line is currently empty."
   else katz_deli != []
+    num += 1
     katz_deli.map do |name|
       puts "The line is currently: #{num}. #{name} "
-      num += 1
+
     end
   end
 end
