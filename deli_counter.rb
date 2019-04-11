@@ -11,7 +11,7 @@ def line(deli)
   end
 end
 
-def take_a_number(name, i)
+def take_a_number(deli, name)
   if deli.empty?
     puts "there is nobody in line"
   else
