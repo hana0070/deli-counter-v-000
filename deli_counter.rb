@@ -1,13 +1,11 @@
 # Write your code here.
-katz_deli = []
-
-def line(katz_deli)
+def line(deli)
   if katz_deli = []
     puts "The line is currently empty."
   elsif katz_deli != []
     count = 1
-    katz_deli.map do |katz_deli|
-      puts "The line is currently: #{count}. #{katz_deli}"
+    deli.map do |deli|
+      puts "The line is currently: #{count}. #{deli}"
       count += 1
     end
   end
