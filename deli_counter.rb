@@ -8,7 +8,7 @@ def line(katz_deli)
     num = 1
     num += 1
     katz_deli.map do |name|
-      puts "The line is currently: #{num}. #{name} "
+      puts "The line is currently: #{num}. #{name}"
 
     end
   end
