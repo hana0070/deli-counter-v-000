@@ -11,11 +11,11 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
+def take_a_number(name, i)
   if deli.empty?
     puts "there is nobody in line"
   else
-    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+    puts "Welcome, #{name}. You are number #{} in line."
   end
 end
 
