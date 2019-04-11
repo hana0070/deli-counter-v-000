@@ -5,8 +5,8 @@ def line(deli)
   else
     current line = "The line is currently:"
     deli.each.with_index(1) do |name, i|
-      puts " #{count}. #{deli}"
-      count += 1
+      current line << " #{i}. #{name}"
+
     end
   end
 end
