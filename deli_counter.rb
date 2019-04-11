@@ -15,7 +15,7 @@ def take_a_number(deli, name)
   if deli.empty?
     puts "there is nobody in line"
   else
-    puts "Welcome, #{deli}. You are number #{deli.length} in line."
+    puts "Welcome, #{name}. You are number #{deli.length} in line."
   end
 end
 
