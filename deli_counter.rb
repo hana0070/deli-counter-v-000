@@ -1,6 +1,6 @@
 # Write your code here.
 def line(deli)
-  if katz_deli = []
+  if deli.empty?
     puts "The line is currently empty."
   elsif katz_deli != []
     count = 1
