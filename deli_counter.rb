@@ -3,9 +3,10 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else
+    current line = "The line is currently:"
     count = 1
     deli.map do |deli|
-      puts "The line is currently: #{count}. #{deli}"
+      puts " #{count}. #{deli}"
       count += 1
     end
   end
