@@ -2,7 +2,7 @@
 def line(deli)
   if deli.empty?
     puts "The line is currently empty."
-  elsif deli != []
+  else
     count = 1
     deli.map do |deli|
       puts "The line is currently: #{count}. #{deli}"
